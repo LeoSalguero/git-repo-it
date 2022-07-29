@@ -118,6 +118,15 @@
     git log --oneline
 ```
 
+# Pasos para subir mi repo local al remoto
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/LeoSalguero/git-repo-it.git
+git push -u origin master
+
+
 
 
 
