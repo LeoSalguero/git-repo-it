@@ -70,9 +70,40 @@
 ```
 
 
-# Creo repositorio git
+### Creo repositorio git
 
 ```sh
 
     git init
 ```
+### Paso del working directory (WD) al Index(staged). ojo que es case sensitive.
+
+```sh
+
+    git add <nombreArchivo>
+```
+
+### Paso del WD al Index mas de un archivo
+
+```sh
+
+    git add .
+```
+
+### Para saber lo que está pasando en el WD
+
+```sh
+
+    git status
+```
+
+### Para pasar del Index al Repositorio Local. Mensaje entre comillas.
+
+```sh
+
+    git commit -m <mensaje>
+```
+
+
+
+
