@@ -120,11 +120,11 @@
 
 # Pasos para subir mi repo local al remoto
 
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/LeoSalguero/git-repo-it.git
-git push -u origin master
+1.git init
+2.git add README.md
+3.git commit -m "first commit"
+4.git remote add origin https://github.com/LeoSalguero/git-repo-it.git
+5.git push -u origin master
 
 
 
