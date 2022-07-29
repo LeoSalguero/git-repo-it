@@ -36,6 +36,9 @@ que no quiero seguir.
 ### GIT KEEP
 
 Me permite seguir una carpeta vacía.
-Creo un archivo llamado .gitkeep que lo que hace es
+Creo un archivo llamado **.gitkeep** que lo que hace es
 tener en cuenta la carpeta vacía.
+
+### REMOTE
+
 
