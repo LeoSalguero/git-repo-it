@@ -24,3 +24,18 @@ git log --after="2021-12-20" --before="2021-12-27"
 ```sh
     git log --oneline --decorate --all --graph
 ```
+
+
+### GIT IGNORE
+
+Sirve para ignorar archivos que no quiero seguir
+Creo el archivo **.gitignore** en el directorio raiz
+y dentro coloco el nombre del archivo o la carpeta
+que no quiero seguir.
+
+### GIT KEEP
+
+Me permite seguir una carpeta vacía.
+Creo un archivo llamado .gitkeep que lo que hace es
+tener en cuenta la carpeta vacía.
+
