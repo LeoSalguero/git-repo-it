@@ -104,6 +104,20 @@
     git commit -m <mensaje>
 ```
 
+### Ver commits 
+
+```sh
+
+    git log
+```
+
+### ver commit resumidos
+
+```sh
+
+    git log --oneline
+```
+
 
 
 
