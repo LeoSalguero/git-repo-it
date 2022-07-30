@@ -23,3 +23,8 @@
 Tipos de Merge
 
 Fast- Fodward (no hay ningun cambio que se solape con lo que está en la otra rama)
+Agrego cosas q quiero tener en consideracion.
+Agrego cosas q quiero tener en consideracion.
+Tener en cuenta subir una rama al remoto.
+Ver clone.
+Ver Fork.
