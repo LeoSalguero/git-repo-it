@@ -20,10 +20,16 @@
     
 ``` 
 ## GIT MERGE
-Tipos de Merge
+
+### Tipos de Merge
 
 Fast- Fodward (no hay ningun cambio que se solape con lo que está en la otra rama)
-Agrego cosas q quiero tener en consideracion.
+Fast- Fodward- Union automatica (no hay ningun cambio que se solape con lo que está en la otra rama)
+
+Recursiva - Uniones automaticas(No hay colisiones de cambios)
+
+Manual - Conflictos(ocurre cuando hay modificaciones en las mismas lineas)
+### Agrego cosas q quiero tener en consideracion.
 Agrego cosas q quiero tener en consideracion.
 Tener en cuenta subir una rama al remoto.
 Ver clone.
