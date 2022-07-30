@@ -22,4 +22,8 @@
 ## GIT MERGE
 Tipos de Merge
 
-Fast- Fodward (no hay ningun cambio que se solape con lo que está en la otra rama)
+Fast- Fodward- Union automatica (no hay ningun cambio que se solape con lo que está en la otra rama)
+
+Recursiva - Uniones automaticas(No hay colisiones de cambios)
+
+Manual - Conflictos(ocurre cuando hay modificaciones en las mismas lineas)
