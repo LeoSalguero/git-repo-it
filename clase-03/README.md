@@ -13,6 +13,7 @@
     git branch<nombreRama>
 ```
 
+
 ### Para cambiar de rama
 
 ```sh
@@ -41,4 +42,4 @@ Agrego cosas q quiero tener en consideracion.
 Tener en cuenta subir una rama al remoto.
 Ver clone.
 Ver Fork.
-### Agrego algo para luego hacer un merge con conflicto.
+
