@@ -75,4 +75,44 @@ ejemplo:
     git status --short
 ``` 
 
+### Para crear una rama
+
+```sh
+    git branch<nombreRama>
+``` 
+### Para listar las ramas
+
+```sh
+    git branch
+    
+``` 
+### Para cambiar de rama
+
+```sh
+    git switch <nombre-rama>
+    
+``` 
+
+### Para crear una rama y moverme a esa rama
+
+```sh
+    git checkout -b <nombre-rama>
+    
+``` 
+### Para borrar una rama
+
+```sh
+    git branch -d <nombreRama>
+    
+``` 
+
+### Para forzar el borrado de una rama que no haya sido unificado con otra.
+
+```sh
+    git branch -D <nombreRama>
+    
+``` 
+
+
+
 
