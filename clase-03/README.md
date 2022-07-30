@@ -43,3 +43,29 @@ Tener en cuenta subir una rama al remoto.
 Ver clone.
 Ver Fork.
 
+## Alias
+
+### Como creo un alias?
+
+```sh
+    git config alias.lg "log --oneline --decorate --all --graph"
+```
+```sh
+    git config alias.l "log --oneline"
+```
+```sh
+    git config --get-regexp alias
+```
+### Para editar el archivo de configuracion de GIT
+```sh
+    git config -e
+```
+### Borrar alias:
+
+```sh
+     git config --unset alias.e
+```
+
+
+
+
