@@ -19,3 +19,7 @@
     git switch <nombre-rama>
     
 ``` 
+## GIT MERGE
+Tipos de Merge
+
+Fast- Fodward (no hay ningun cambio que se solape con lo que está en la otra rama)
