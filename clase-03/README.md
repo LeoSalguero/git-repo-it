@@ -82,6 +82,24 @@ Me permite crear un repo de cualquier proyecto  de Github
 2. Se cre el repo en mi cuenta .
 3. Puedo clonar ese repo y empezar a trabajar.
 
+## Subir rama local al remoto
+
+```sh
+    git push origin <nombreRama>
+```
+##  Para actualizar un fork
+Necesito el remoto original. Del remoto al repo al cual hice el
+fork.
+## Agrego el remoto del repositorio original
+```sh
+    git remote add upstream <nombreUrl>
+```
+## Me traigo los ultimos commit de la repo original.
+```sh
+    git pull upstream <nombreRama>
+```
+
+
 
 
 
