@@ -75,7 +75,12 @@ Para ponerlo en una carpeta especifica:
 ```sh
      git clone https://github.com/LeoSalguero/git-repo-it.git ./<nombre>
 ```
+### Fork
+Me permite crear un repo de cualquier proyecto  de Github
 
+1. Vamos al repo que queremos hacer el fork. Presionamos el botón
+2. Se cre el repo en mi cuenta .
+3. Puedo clonar ese repo y empezar a trabajar.
 
 
 
