@@ -32,5 +32,25 @@ Ejemplo:
 ```sh
     git show v1.0.0
 ```
+## Subir todos los tags(NO RECOMENDADO)
+```sh
+    git push  --tags
+```
+### Subir un tag en especifico:
+```sh
+    git push origin <tag-name>
+```
+### Borrar tag:
+```sh
+    git tag -d <tag-name>
+```
+## GIT amend
+Sirve para cuando uno se equivoca sobre todo en el ultimo commit.
+Por ejemplo al hacer un commit  y olvidarse de guardar el archivo.
+
+
+
+
+
 
 
