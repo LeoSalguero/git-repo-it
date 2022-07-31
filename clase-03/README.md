@@ -66,6 +66,17 @@ Ver Fork.
      git config --unset alias.e
 ```
 
+## Git Clone
+Me permite clonar cualquier repositorio que exista en Github, gitlab,etc
+```sh
+     git clone https://github.com/LeoSalguero/git-repo-it.git
+```
+Para ponerlo en una carpeta especifica:
+```sh
+     git clone https://github.com/LeoSalguero/git-repo-it.git ./<nombre>
+```
+
+
 
 
 
