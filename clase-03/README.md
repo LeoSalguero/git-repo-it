@@ -100,6 +100,40 @@ fork.
 ```
 
 
+# me traigo lo de mi propio repo remoto
+```sh
+    git pull 
+```
+# GIT STASH
+Es una pila de almacenamiento que provee Git. Permite registrar temporalmente
+los cambios del wd para seguir trabajando. Cuando hacemos un stash
+se restablece el proyecto al ultimo commit.
+## Crear el stash
+Guarda los cambios que están en el wd , en un area temporal.
+```sh
+    git stash
+```
+## Recuperar el ultimo stash
+
+sino hay conflicto, borra el stash.
+
+```sh
+    git stash pop
+```
+## Listar los stash
+```sh
+    git stash list
+```
+## Para recupear el stash sin borrarlo
+
+```sh
+    git stash apply stash@{1}
+```
+## Para borrar dicho stash
+
+```sh
+    git stash drop stash@{1}
+```
 
 
 
