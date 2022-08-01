@@ -46,7 +46,36 @@ Ejemplo:
 ```
 ## GIT amend
 Sirve para cuando uno se equivoca sobre todo en el ultimo commit.
-Por ejemplo al hacer un commit  y olvidarse de guardar el archivo.
+Por ejemplo al hacer un commit  y olvidarse de guardar el archivo
+que estaba modificando.
+```sh
+    git commit --amend -m <mensaje>
+```
+
+## Para traer todos los archivos del ultimo commit en el estado q estaban en el ultimo commit
+```sh
+    git checkout -- .
+```
+# GIT RESET
+```sh
+1. git reset --soft <hash>   Trae todos los cambios al WD
+```
+```sh
+2. git reset --mixed <hash> ( es lo lo mismo que poner git reset)
+```
+```sh
+3. git reset --hard <hash>
+```
+
+
+
+```sh
+    git checkout -- .
+```
+
+
+# GIT REFLOG
+
 
 
 
