@@ -122,12 +122,12 @@ https://www.markdownguide.org/cheat-sheet/
 
 ### Pasos para subir mi repo local al remoto
 
-1.git init
-2.git status
-3.git add README.md
-4.git commit -m "first commit"
-5.git remote add origin https://github.com/LeoSalguero/git-repo-it.git
-6.git push -u origin master
+1. git init
+2. git status
+3. git add README.md
+4. git commit -m "first commit"
+5. git remote add origin https://github.com/LeoSalguero/git-repo-it.git
+6. git push -u origin master
 
 
 
