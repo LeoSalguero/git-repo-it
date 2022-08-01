@@ -57,24 +57,61 @@ que estaba modificando.
     git checkout -- .
 ```
 # GIT RESET
+No destructivo.Trae todos los cambios al WD
+
 ```sh
 1. git reset --soft <hash>   Trae todos los cambios al WD
 ```
 ```sh
+
+Trae todos los cambios de los commit pero los saca de los commit
+como si estuvieran recien creados.
 2. git reset --mixed <hash> ( es lo lo mismo que poner git reset)
 ```
+
+
 ```sh
 3. git reset --hard <hash>
 ```
 
+# GIT REFLOG
 
+Nos muestra la historia completa incluido todos los movimientos que
+fuimos haciendo sobre nuestro repositorio.
 
 ```sh
-    git checkout -- .
+    git reflog
+```
+
+Vuelvo al punto donde quiero estar , colocando el hash en checkout o el 
+punto.
+
+```sh
+    git checkout <hash> .
+```
+# REBASE
+
+¿ Como actualizo una rama dev con los cambios en master antes de integrar
+los cambios que tiene la rama dev?
+```sh
+    git rebase master
+```
+crea un area temporal , mueve los commits de la rama dev y mueve
+el apuntador al ultimo commit. y luego mueve los commits del area temporal
+al final de los ultimos commits.
+
+### REBASE INTERACTIVO
+```sh
+    git rebase -i <HASH>
+```
+ej:
+
+```sh
+    git rebase -i 8fee621
 ```
 
 
-# GIT REFLOG
+
 
 
 
